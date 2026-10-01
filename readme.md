@@ -17,7 +17,3 @@ Az oldal egy animevéleményező és értékelő platform, ahol a felhasználók
 
 ## Oldal felépítés:
 
-**Header**
-- logo
-- oldal neve
-- 
