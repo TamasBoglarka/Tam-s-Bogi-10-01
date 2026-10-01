@@ -2,16 +2,13 @@
 
 https://myanimelist.net/ - Átalakítani kívánt weboldal
 
-
-
 ## Animék:
 - Attack on Titan
 - Inuyasha
-- 
--
--
--
--
+- Death Note
+- Demon slayer
+- Kamisama kiss
+- Spy x Family
 
 ## Tartalom:
 
@@ -23,3 +20,12 @@ https://myanimelist.net/ - Átalakítani kívánt weboldal
 
 ## Oldal felépítés:
 
+https://anilist.co/ - ötlet/példa weboldal
+
+- nav
+- cards
+- carousel
+- rangsor
+- meg még valami
+
+![](referencia.png)
