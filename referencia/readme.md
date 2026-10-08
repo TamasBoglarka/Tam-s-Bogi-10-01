@@ -27,5 +27,6 @@ https://anilist.co/ - ötlet/példa weboldal
 - carousel
 - rangsor
 - meg még valami
+- https://github.com/TamasBoglarka/Tam-s-Bogi-10-01.git
 
 ![](referencia.png)
