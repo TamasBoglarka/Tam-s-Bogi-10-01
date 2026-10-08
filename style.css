@@ -1,9 +1,22 @@
-header{
-    background-color: aqua;
-    height: 200px;
+body{
+    background-color: rgb(59, 9, 47)
 }
 
-nav, ul, li{
+header{
+    background-color: rgb(255, 164, 192);
+    height: 200px;
+    text-align: center;
+    
+}
+
+nav{
+    height: 50px;
+    background-color: black;
+    
+}
+
+li{
+    color: white;
     display: inline-block;
     text-decoration: none;
 }
