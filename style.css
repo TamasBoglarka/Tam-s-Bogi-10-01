@@ -6,7 +6,9 @@ header{
     background-color: rgb(255, 164, 192);
     height: 200px;
     text-align: center;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav{
@@ -23,6 +25,7 @@ li, a{
     color: white;
     display: inline-block;
     text-decoration: none;
+    margin: 0 10px;
 }
 
 
