@@ -32,4 +32,8 @@ li, a{
 
 .card{
     margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
 }
