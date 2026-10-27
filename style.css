@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(35, 24, 27);
+    background-color: #1B263B;
 }
 
 header{
@@ -19,7 +19,7 @@ header{
 
 nav{
     height: 50px;
-    background-color: rgb(14, 11, 12);
+    background-color: rgb(13, 27, 42);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ nav{
 nav ul { margin: 0; }
 
 li, a{
-    color: #DEC4C9;
+    color: white;
     display: inline-block;
     text-decoration: none;
     margin: 0 10px;
@@ -40,7 +40,7 @@ a:hover{
 
 .card{
     margin: auto;
-    background-color: rgb(14, 11, 12);
+    background-color: rgb(13, 27, 42);
     color: white;
     display: flex;
     text-align: center;
