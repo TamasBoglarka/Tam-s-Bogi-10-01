@@ -176,13 +176,49 @@ nav a:hover {
     opacity: 0.8;
 }
 
-.anime-kep {
-    height: 450px;
-    object-fit: cover;
-    cursor: pointer;
+
+.anime-lista {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(14, 11, 12);
+    color: white;
+    border-radius: 12px;
+}
+
+.anime-lista h2 {
+    text-align: center;
+}
+
+.anime-sor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(35, 24, 27);
+    border-radius: 8px;
     transition: 0.3s;
 }
 
-.anime-kep:hover {
-    filter: brightness(0.8);
+.anime-sor:hover {
+    transform: translateX(5px);
+}
+
+.anime-sor img {
+    width: 60px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.anime-sor h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.anime-sor p {
+    color: #e6b45a;
+    margin: 5px 0 0;
 }
