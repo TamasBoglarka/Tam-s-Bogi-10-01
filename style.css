@@ -1,44 +1,55 @@
-body{
+
+body {
     background-color: rgb(35, 24, 27);
+    color: white;
 }
 
-header{
-    background-image: url(pics/banner.jpeg);
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+header {
+    background-image: url("pics/banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 350px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    text-shadow: 0 0 8px black;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
 
-nav{
-    height: 50px;
+nav {
+    height: 60px;
     background-color: rgb(14, 11, 12);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav ul { margin: 0; }
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-li, a{
-    color: white;
+nav li {
     display: inline-block;
-    text-decoration: none;
     margin: 0 10px;
 }
 
-a:hover{
-    color: #977272;
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-
+nav a:hover {
+    background-color: rgb(65, 45, 50);
+    color: white;
+}
 
 .card {
     margin: 50px auto 0;
@@ -48,15 +59,12 @@ a:hover{
     text-align: center;
     height: 100%;
     width: 18rem;
-
     border: 1px solid rgb(75, 52, 59);
     border-radius: 16px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-
     transition: all 0.3s ease;
 }
 
-/* Card hover */
 .card:hover {
     transform: translateY(-8px);
     background-color: rgb(55, 38, 43);
@@ -64,18 +72,15 @@ a:hover{
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
 }
 
-/* Gomb */
 .card .btn {
     background-color: rgb(75, 45, 54);
     color: white;
     border: 1px solid rgb(110, 68, 81);
     border-radius: 8px;
     padding: 10px 20px;
-
     transition: all 0.3s ease;
 }
 
-/* Gomb hover */
 .card .btn:hover {
     background-color: rgb(105, 60, 74);
     border-color: rgb(145, 90, 105);
@@ -83,7 +88,6 @@ a:hover{
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-
 
 .carousel{
     width: 90%;
@@ -96,4 +100,89 @@ a:hover{
     width: 100%;
     height: 450px;
     object-fit: contain;
+}
+
+.anime-modal {
+    background-color: rgb(35, 24, 27);
+    color: white;
+    border: 1px solid rgb(90, 60, 68);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+}
+
+.anime-modal .modal-header {
+    background-color: rgb(14, 11, 12);
+    border-bottom: 1px solid rgb(75, 52, 59);
+    padding: 18px 20px;
+}
+
+.anime-modal .modal-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.anime-modal .modal-body {
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.anime-modal-kep {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgb(75, 52, 59);
+}
+
+.anime-modal .modal-footer {
+    background-color: rgb(25, 17, 20);
+    border-top: 1px solid rgb(75, 52, 59);
+}
+
+.bezaras-gomb {
+    background-color: rgb(75, 45, 54);
+    color: white;
+    border: 1px solid rgb(110, 68, 81);
+    border-radius: 8px;
+    padding: 9px 20px;
+    transition: 0.3s;
+}
+
+.bezaras-gomb:hover {
+    background-color: rgb(105, 60, 74);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.anime-modal .modal-content {
+    animation: modalMegjelenes 0.3s ease;
+}
+
+@keyframes modalMegjelenes {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+.anime-kep {
+    height: 450px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.anime-kep:hover {
+    filter: brightness(0.8);
 }
